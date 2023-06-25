@@ -93,7 +93,3 @@ df_with_size = data.withColumn('size_category',
 
 # Hiển thị kết quả
 df_with_size.select('id', 'sqft_living', 'size_category').show()
-
-print('-' * 140)
-print('QUESTION 4:\n')
-print('Dang lam ... :)))))')
